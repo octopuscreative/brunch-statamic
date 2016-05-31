@@ -1,0 +1,22 @@
+{
+  "name": "statamic-brunch",
+  "version": "1.0.0",
+  "description": "A boilerplate for building Statamic themes with Brunch",
+  "main": "index.js",
+  "scripts": {
+    "start": "brunch watch --server",
+    "build": "brunch build --production"
+  },
+  "author": "Sean Washington <sean@octopuscreative.com> (http://octop.us)",
+  "license": "ISC",
+  "dependencies": {
+    "auto-reload-brunch": "^2.7.1",
+    "autoprefixer": "^6.3.6",
+    "brunch": "^2.8.0",
+    "coffee-script-brunch": "^2.0.0",
+    "csswring": "^5.0.0",
+    "ngmin-uglify-js-brunch": "^1.7.13",
+    "postcss-brunch": "^0.5.0",
+    "sass-brunch": "^2.6.3"
+  }
+}
