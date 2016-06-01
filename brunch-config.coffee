@@ -18,6 +18,8 @@ exports.config =
         require('autoprefixer')(['last 8 versions']),
         require('csswring')
       ]
+    coffeescript:
+      bare: true
 
     # Include your npm modules here :)
     # sass:
